@@ -12,7 +12,7 @@ Osnovne funkcionalnosti : Login zaposlenika, sign up i log out, unos obaveza i b
 
     docker build --tag python-flask-app:1.0 .
 
-4. Pokretanje kontejnera na temelju stvorene slike na portu 5000
+4. Pokretanje kontejnera na temelju stvorene slike na portu 8080
 
     docker run  -p 8080:8080 -d python-flask-app:1.0
 
