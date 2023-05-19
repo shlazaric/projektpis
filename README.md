@@ -10,15 +10,15 @@ Osnovne funkcionalnosti : Login zaposlenika, sign up i log out, unos obaveza i b
 
 3. Izrada docker image-a upisivanjem naredbe
 
-docker build --tag python-flask-app:1.0 .
+    docker build --tag python-flask-app:1.0 .
 
 4. Pokretanje kontejnera na temelju stvorene slike na portu 5000
 
-docker run  -p 5000:8080 -d python-flask-app:1.0
+    docker run  -p 5000:8080 -d python-flask-app:1.0
 
 5. Otvaranje preglednika na adresi
 
-localhost:5000
+   localhost:5000
 
 
 
