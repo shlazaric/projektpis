@@ -27,7 +27,7 @@ def home():
 
 @views.route('/delete-note', methods=['POST'])
 def delete_note():
-    # this function expects a JSON from the INDEX.js file
+
     note = json.loads(request.data)
     noteId = note['noteId']
     note = Note.query.get(noteId)

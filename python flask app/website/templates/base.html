@@ -10,9 +10,13 @@
         crossorigin="anonymous" />
 
     <title>{% block title %}Home{% endblock %}</title>
+
 </head>
 
 <body>
+
+
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
             <span class="navbar-toggler-icon"></span>
@@ -71,6 +75,33 @@
         }
     </script>
     {% endblock %}
+
+    <br>
+    <table border="1" class="dataframe">
+        <thead>
+            <tr style="text-align: right;">
+
+                <th> Ime</th>
+                <th> Datum</th>
+                <th> Obaveza</th>
+            </tr>
+        </thead>
+        <tr>
+            <th> Enea </th>
+            <th> 11.05.2023.</th>
+            <th> Razgovor s agentom u 15 h</th>
+        </tr>
+        <tr>
+            <th> Lena </th>
+            <th> 12.04.2020.</th>
+            <th> Fotografiranje za novu kampaniju</th>
+        </tr>
+        <tr>
+            <th> Sandro </th>
+            <th> 23.06.2021.</th>
+            <th> Sastanak s klijentom</th>
+        </tr>
+    </table>
 </body>
 
 </html>
